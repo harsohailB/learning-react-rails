@@ -6,8 +6,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "../components/App";
 
-const Hello = (props) => <div>Hello {props.name}!</div>;
-
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
     <App />,
